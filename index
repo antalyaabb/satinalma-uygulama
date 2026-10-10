@@ -5,48 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1769aa">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Satın Alma Takip">
 
   <title>Satın Alma Takip</title>
-
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" type="image/png" href="icon-512.png">
-  <link rel="apple-touch-icon" href="icon-512.png">
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f0f4f8;
-    }
-
-    header {
-      padding: 12px;
-      text-align: center;
-      color: white;
-      background: #1769aa;
-      font-weight: bold;
-    }
-
-    iframe {
-      display: block;
-      width: 100%;
-      height: calc(100dvh - 44px);
-      border: 0;
-      background: white;
-    }
-  </style>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/png" href="./icon-192.png">
 </head>
-
 <body>
-  <header>Satın Alma Takip</header>
-
-  <iframe
-    src="https://script.google.com/macros/s/AKfycby5y2CfJJ1UFRG5HoNhR13_3175rgeFRb1uIApOxpy6OT07QyYFIYhHUYfwpMo2s5xj/exec"
-    title="Satın Alma Takip Uygulaması">
-  </iframe>
+  <p>Satın Alma Takip açılıyor...</p>
+  <p>
+    <a href="https://script.google.com/macros/s/AKfycby5y2CfJJ1UFRG5HoNhR13_3175rgeFRb1uIApOxpy6OT07QyYFIYhHUYfwpMo2s5xj/exec">
+      Uygulamayı aç
+    </a>
+  </p>
+  <script>
+    window.location.replace(
+      "https://script.google.com/macros/s/AKfycby5y2CfJJ1UFRG5HoNhR13_3175rgeFRb1uIApOxpy6OT07QyYFIYhHUYfwpMo2s5xj/exec"
+    );
+  </script>
 </body>
 </html>
