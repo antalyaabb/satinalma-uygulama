@@ -20,6 +20,7 @@
     </a>
   </p>
   <script>
+alert("Yönlendirme kodu çalışıyor");
     window.location.replace(
       "https://script.google.com/macros/s/AKfycby5y2CfJJ1UFRG5HoNhR13_3175rgeFRb1uIApOxpy6OT07QyYFIYhHUYfwpMo2s5xj/exec"
     );
