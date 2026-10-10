@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -8,7 +7,7 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="application-name" content="Satın Alma Takip">
 
-  <title>Satın Alma Takip</title>
+  <title>Satın Alma Takip Test</title>
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" type="image/png" href="./icon-192.png">
 </head>
